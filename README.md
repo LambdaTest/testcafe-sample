@@ -8,6 +8,7 @@ Clone the repository to your machine and install the dependencies:
 
 ```sh
 git clone https://github.com/LambdaTest/testcafe-sample.git
+npm install -g testcafe
 npm install
 export LT_USERNAME=<Username>
 export LT_ACCESS_KEY=<Access Key>
