@@ -1,0 +1,25 @@
+{
+  "name": "testcafe-sample",
+  "version": "1.0.0",
+  "description": "TestCafe API Sample",
+  "main": "test.js",
+  "scripts": {
+    "test": "testcafe all test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaTest/testcafe-sample.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaTest/testcafe-sample/issues"
+  },
+  "homepage": "https://github.com/LambdaTest/testcafe-sample#readme",
+  "devDependencies": {
+    "testcafe": "*"
+  },
+  "dependencies": {
+    "testcafe-browser-provider-lambdatest": "^1.0.0"
+  }
+}
