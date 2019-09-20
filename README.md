@@ -13,4 +13,5 @@ npm install
 export LT_USERNAME=<Username>
 export LT_ACCESS_KEY=<Access Key>
 testcafe "lambdatest:Chrome@74.0:Windows 8" "test.js"
+testcafe -c 2 "lambdatest:Chrome@74.0:Windows 8" "test.js"
 ```
