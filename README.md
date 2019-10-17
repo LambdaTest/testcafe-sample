@@ -12,8 +12,13 @@ npm install -g testcafe
 npm install
 export LT_USERNAME=<Username>
 export LT_ACCESS_KEY=<Access Key>
+#single
 testcafe "lambdatest:Chrome@74.0:Windows 8" "test.js"
+#parallel
 testcafe -c 2 "lambdatest:Chrome@74.0:Windows 8" "test.js"
+
+#parallel on different combo
+testcafe -c 2 "lambdatest:Chrome@77.0:Windows 8","lambdatest:Chrome@76.0:Windows 10" "test.js"
 ```
 ## About LambdaTest
 
