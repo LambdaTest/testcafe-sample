@@ -49,7 +49,8 @@ $ testcafe -c 2 "lambdatest:Chrome@78.0:Windows 8" "test.js"
 ```sh
 $ testcafe -c 2 "lambdatest:Chrome@76.0:Windows 8","lambdatest:Chrome@78.0:Windows 10" "test.js"
 ```
-
+Note:
+The total parallel sessions should be less than or equals to the subscribed plan.
 
 ## About LambdaTest
 
