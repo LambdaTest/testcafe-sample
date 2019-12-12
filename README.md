@@ -33,7 +33,7 @@ $ export LT_ACCESS_KEY=<Access Key>
 
 ### Run single test
 ```sh
-$ testcafe "lambdatest:Chrome@78.0:Windows 8" "test.js"
+$ testcafe "lambdatest:Chrome@78.0:Windows 10" "test.js"
 ```
 
 ### Run parallel tests
@@ -41,13 +41,13 @@ $ testcafe "lambdatest:Chrome@78.0:Windows 8" "test.js"
 - 2 parallel tests with single browser
 
 ```sh
-$ testcafe -c 2 "lambdatest:Chrome@78.0:Windows 8" "test.js"
+$ testcafe -c 2 "lambdatest:Chrome@78.0:Windows 10" "test.js"
 ```
 
 - 2 parallel tests with 2 browsers (4 tests concurrently)
 
 ```sh
-$ testcafe -c 2 "lambdatest:Chrome@76.0:Windows 8","lambdatest:Chrome@78.0:Windows 10" "test.js"
+$ testcafe -c 2 "lambdatest:Chrome@77.0:Windows 10","lambdatest:Chrome@78.0:Windows 10" "test.js"
 ```
 Note:
 The total parallel sessions should be less than or equals to the subscribed plan.
