@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/LambdaTest/testcafe-sample#readme",
   "dependencies": {
-    "testcafe": "1.1.4"
+    "testcafe": "1.8.1",
+    "testcafe-browser-provider-lambdatest": "^2.0.1"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
