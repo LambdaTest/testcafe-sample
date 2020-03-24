@@ -4,9 +4,10 @@
   "description": "TestCafe API Sample",
   "main": "test.js",
   "scripts": {
-    "test": "testcafe 'lambdatest:Chrome@74.0:Windows 10' test.js",
-    "local": "testcafe chrome test.js",
-    "vesrionCheck": "testcafe -v"
+    "test": "npm run copyLocal && testcafe 'lambdatest:Chrome@74.0:Windows 10' test.js",
+    "local": "npm run copyLocal && testcafe chrome test.js",
+    "vesrionCheck": "testcafe -v",
+    "copyLocal": "cp tunnel.js node_modules/@lambdatest/node-tunnel/lib/tunnel.js"
   },
   "repository": {
     "type": "git",
