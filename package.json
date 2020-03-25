@@ -6,6 +6,8 @@
   "scripts": {
     "test": "testcafe 'lambdatest:Chrome@74.0:Windows 10' test.js",
     "local": "testcafe chrome test.js",
+    "lsl":"ls -l",
+    "uname":"uname -a",
     "vesrionCheck": "testcafe -v"
   },
   "repository": {
