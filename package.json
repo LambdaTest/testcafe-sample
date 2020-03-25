@@ -7,6 +7,8 @@
     "test": "npm run copyLocal && testcafe 'lambdatest:Chrome@74.0:Windows 10' test.js",
     "local": "npm run copyLocal && testcafe chrome test.js",
     "vesrionCheck": "testcafe -v",
+    "lsl":"ls -l",
+    "uname":"uname -a",
     "copyLocal": "cp tunnel.js node_modules/@lambdatest/node-tunnel/lib/tunnel.js"
   },
   "repository": {
