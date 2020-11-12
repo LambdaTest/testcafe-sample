@@ -1,0 +1,7 @@
+tasks:
+  - init: install node
+    command: |
+      npm install npm@latest -g
+      npm install -g testcafe
+      npm install testcafe-browser-provider-lambdatest
+      testcafe -b lambdatest
