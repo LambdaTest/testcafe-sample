@@ -1,4 +1,4 @@
-    tasks:
+tasks:
   - init: install node &&
       npm install -g testcafe &&
       npm install testcafe-browser-provider-lambdatest &&
