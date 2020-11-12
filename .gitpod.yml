@@ -1,6 +1,6 @@
 tasks:
   - init: install node
-      npm install npm@latest -g
-      npm install -g testcafe
-      npm install testcafe-browser-provider-lambdatest
-      testcafe -b lambdatest
+    command: |
+      npm install npm@latest -g &&
+      npm install -g testcafe &&
+      npm install testcafe-browser-provider-lambdates
