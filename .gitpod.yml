@@ -1,0 +1,11 @@
+tasks:
+  - init: npm install -g testcafe &&
+      npm install testcafe-browser-provider-lambdatest &&
+      npm install &&
+      testcafe -b lambdatest
+      
+vscode:
+  extensions:
+    - formulahendry.code-runner@0.11.1:hLisqB9ugwNp1563+VahaQ==
+    - xabikos.JavaScriptSnippets@1.8.0:irMtTLqQntnfBQkmtahtNA==
+    - dbaeumer.vscode-eslint@2.1.8:02aHhbJ0Q4aGdjHXlTdVKg==
