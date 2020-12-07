@@ -47,13 +47,13 @@ example:
 For linux/mac :
 
 `$export LT_USERNAME="YOUR_USERNAME"
-                   $export LT_ACCESS_KEY="YOUR ACCESS KEY"`
+ $export LT_ACCESS_KEY="YOUR ACCESS KEY"`
                    
                    
 For Windows:
 
 `$ set LT_USERNAME="YOUR_USERNAME"
-                  $ set LT_ACCESS_KEY="YOUR ACCESS KEY"`
+ $ set LT_ACCESS_KEY="YOUR ACCESS KEY"`
                   
                   
 6. Install Dependencies
@@ -297,7 +297,7 @@ C:\Users\Admin\Desktop\vscode\testcafe-sample>set LT_ACCESS_KEY= 5657878ghyg
 Now it’s time to enter the command for executing the test on desired configuration
 
 ```
-C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe “lambdatest:Chrome @80.0:Windows 10” “test.js”
+C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe "lambdatest:Chrome @80.0:Windows 10" "test.js"
 ```
 Tunnel established connection internally after authentication of credentials:
 
@@ -315,7 +315,7 @@ For running 2 parallel on same configuration-: add flag  -c 2
  Here c 2( concurrency 2) signifies you are  running 2 parallel tests on same configuration
 
 ```
-C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  -c 2  “lambdatest:Chrome @80.0:Windows 10” “test.js”
+C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  -c 2  "lambdatest:Chrome @80.0:Windows 10" "test.js"
 ```
 
 Similarly you can  run  N   number of tests in parallel tests on same configuration( N depends upon the plan subscription)
@@ -325,8 +325,7 @@ Similarly you can  run  N   number of tests in parallel tests on same configurat
  For  parallel tests on different configurations:
  
  ```
- C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  “lambdatest:Chrome@80.0:Windows 10” , ”lambdatest:Firefox@60.0:Windows 8.1”, "lambdatest:Chrome@60.0:macOS Mojave"
-“test.js”
+ C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe  "lambdatest:Chrome@80.0:Windows 10" , "lambdatest:Firefox@60.0:Windows 8.1", "lambdatest:Chrome@60.0:macOS Mojave" "test.js"
 ```
 
 Tunnel established connection internally after authentication of credentials:
