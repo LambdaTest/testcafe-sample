@@ -9,4 +9,4 @@ ports:
 # List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
   - init: npm install -g testcafe && npm install 
-    command: testcafe -b && testcafe lambdatest"lambdatest:Chrome@85.0:Windows 10","lambdatest:Firefox@84.0:Windows 8.1","lambdatest:Chrome@85.0:macOS Mojave" "test.js"
+    command: testcafe -b lambdatest && testcafe "lambdatest:Chrome@85.0:Windows 10" "test.js"
