@@ -357,7 +357,6 @@ LT_PROXY_USER |
 LT_DIR |
 LT_SELENIUM_VERSION |
 
-
 Assign flag as true or false to below variables if required:
 
 variables | 
