@@ -1,11 +1,12 @@
+image:
+  file: .gitpod.Dockerfile
+
+# List the ports you want to expose and what to do when they are served. See https://www.gitpod.io/docs/config-ports/
+ports:
+  - port: 3000
+    onOpen: open-preview
+
+# List the start up tasks. You can start them in parallel in multiple terminals. See https://www.gitpod.io/docs/config-start-tasks/
 tasks:
-  - init: npm install -g testcafe &&
-      npm install testcafe-browser-provider-lambdatest &&
-      npm install &&
-      testcafe -b lambdatest
-      
-vscode:
-  extensions:
-    - formulahendry.code-runner@0.11.1:hLisqB9ugwNp1563+VahaQ==
-    - xabikos.JavaScriptSnippets@1.8.0:irMtTLqQntnfBQkmtahtNA==
-    - dbaeumer.vscode-eslint@2.1.8:02aHhbJ0Q4aGdjHXlTdVKg==
+  - init: npm install -g testcafe && npm install 
+    command: testcafe -b lambdatest && testcafe "lambdatest:Chrome@85.0:Windows 10" "test.js"
