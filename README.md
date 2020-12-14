@@ -47,13 +47,13 @@ example:
 For linux/mac :
 
 `$export LT_USERNAME="YOUR_USERNAME"
-                   $export LT_ACCESS_KEY="YOUR ACCESS KEY"`
+ $export LT_ACCESS_KEY="YOUR ACCESS KEY"`
                    
                    
 For Windows:
 
 `$ set LT_USERNAME="YOUR_USERNAME"
-                  $ set LT_ACCESS_KEY="YOUR ACCESS KEY"`
+ $ set LT_ACCESS_KEY="YOUR ACCESS KEY"`
                   
                   
 6. Install Dependencies
@@ -297,7 +297,7 @@ C:\Users\Admin\Desktop\vscode\testcafe-sample>set LT_ACCESS_KEY= 5657878ghyg
 Now it’s time to enter the command for executing the test on desired configuration
 
 ```
-C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe “lambdatest:Chrome @80.0:Windows 10” “test.js”
+C:\Users\Admin\Desktop\vscode\testcafe-sample>testcafe "lambdatest:Chrome @85.0:Windows 10" "test.js"
 ```
 Tunnel established connection internally after authentication of credentials:
 
@@ -357,7 +357,6 @@ LT_PROXY_PORT |
 LT_PROXY_USER |
 LT_DIR |
 LT_SELENIUM_VERSION |
-
 
 Assign flag as true or false to below variables if required:
 
