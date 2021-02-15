@@ -1,19 +1,7 @@
 version: 2.1
 orbs:
-  node: circleci/node@4.1.0
-jobs:
-  test:
-    executor:
-      name: node/default
-      tag: lts
-    steps:
-      - checkout
-      - node/install-packages
-      - run:
-          command: npm run test
-      - store_test_results:
-          path: /tmp/test-results
+  node: circleci/node@3.0.0
 workflows:
-  e2e-test:
+  node-tests:
     jobs:
-      - test
+      - node/test
