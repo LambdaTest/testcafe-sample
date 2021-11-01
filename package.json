@@ -4,7 +4,9 @@
   "description": "TestCafe API Sample",
   "main": "test.js",
   "scripts": {
-    "test": "testcafe all test.js"
+    "test": "sh single.sh",
+    "single":"sh single.sh",
+    "parallel": "sh parallel.sh"
   },
   "repository": {
     "type": "git",
