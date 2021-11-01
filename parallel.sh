@@ -1,1 +1,1 @@
-testcafe "lambdatest:Chrome @94.0:Windows 10","lambdatest:Firefox @90.0:Windows 10" "test.js"
+testcafe "lambdatest:Chrome@94.0:Windows 10","lambdatest:Firefox@90.0:Windows 10" "test.js"
