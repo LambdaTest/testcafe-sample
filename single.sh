@@ -1,0 +1,1 @@
+testcafe "lambdatest:Chrome @94.0:Windows 10" "test.js"

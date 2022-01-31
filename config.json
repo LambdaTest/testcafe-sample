@@ -1,0 +1,8 @@
+{
+    "Chrome@94.0:Windows 10": {
+        "build": "TestCafe Demo",
+        "network": true,
+        "visual": true,
+        "resolution": "1024x768"
+    }
+}
