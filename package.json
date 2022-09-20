@@ -1,11 +1,11 @@
 {
   "name": "testcafe-sample",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "TestCafe API Sample",
   "main": "test.js",
   "scripts": {
     "test": "sh single.sh",
-    "single":"sh single.sh",
+    "single": "sh single.sh",
     "parallel": "sh parallel.sh"
   },
   "repository": {
@@ -17,11 +17,5 @@
   "bugs": {
     "url": "https://github.com/LambdaTest/testcafe-sample/issues"
   },
-  "homepage": "https://github.com/LambdaTest/testcafe-sample#readme",
-  "devDependencies": {
-    "testcafe": "*"
-  },
-  "dependencies": {
-    "testcafe-browser-provider-lambdatest": "2.0.22"
-  }
+  "homepage": "https://github.com/LambdaTest/testcafe-sample#readme"
 }

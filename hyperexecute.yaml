@@ -1,0 +1,20 @@
+---
+version: 0.1
+globalTimeout: 90
+testSuiteTimeout: 90
+testSuiteStep: 90
+runson: win
+autosplit: true
+concurrency: 1
+pre:
+  - npm install -g testcafe testcafe-browser-provider-hyperexecute
+  - npm install
+  - testcafe -b hyperexecute
+cacheKey: '{{ checksum "package-lock.json" }}'
+cacheDirectories:
+  - node_modules
+testDiscovery:
+  type: raw
+  mode: dynamic
+  command: echo test.js
+testRunnerCommand: testcafe "hyperexecute:Chrome@103.0:Windows 10" "$test"
