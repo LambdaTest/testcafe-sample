@@ -22,6 +22,6 @@
     "testcafe": "*"
   },
   "dependencies": {
-    "testcafe-browser-provider-lambdatest": "2.0.22"
+    "testcafe-browser-provider-lambdatest": "2.0.27"
   }
 }
