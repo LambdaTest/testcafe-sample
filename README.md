@@ -12,7 +12,7 @@
 With TestMu AI (Formerly LambdaTest), you can run TestCafe end-to-end browser tests across real browsers and operating systems. This sample shows how to configure TestCafe tests to run on the TestMu AI cloud using the TestMu AI (Formerly LambdaTest) browser provider plugin.
 
 - [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/npm-plugin-for-testcafe-integration-with-testmu/) for the full setup walkthrough.
+- Follow the [Run TestCafe tests on TestMu AI](https://www.testmuai.com/support/docs/npm-plugin-for-testcafe-integration-with-testmu/) for the full setup walkthrough.
 
 ### Prerequisites
 
