@@ -1,4 +1,4 @@
-# Run TestCafe Tests on TestMu AI (Formerly LambdaTest)
+﻿# Run TestCafe Tests on TestMu AI (Formerly LambdaTest)
 
 <p align="center">
   <a href="https://www.testmuai.com/"><img src="https://img.shields.io/badge/MADE%20BY%20TestMu%20AI-000000.svg?style=for-the-badge&labelColor=000" alt="Made by TestMu AI"></a>
